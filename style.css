@@ -20,24 +20,21 @@ html, body {
     flex-direction: column;
 }
 
-.input {
+.input, .display {
     background-color: #1a1a1a;
     border: solid 1px #c8cacc;
-    height: 2em;
     padding-left: 10px;
     padding-right: 10px;
     display: flex;
     flex-direction: column;
+}
+
+.input {
+    height: 2em;
     justify-content: space-around;
 }
 
 .display {
-    background-color: #1a1a1a;
-    border: solid 1px #c8cacc;
     height: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    padding-top: 0.5em;
 }
