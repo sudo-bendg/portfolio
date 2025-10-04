@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1e1e1e;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+* {
+    margin: 0;
+}
+
+.main {
+    width: 80%;
+    height: 80%;
+    color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    background-color: #1a1a1a;
+    border: solid 1px #c8cacc;
+    height: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.display {
+    background-color: #1a1a1a;
+    border: solid 1px #c8cacc;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
