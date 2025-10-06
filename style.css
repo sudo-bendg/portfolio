@@ -37,7 +37,17 @@ html, body {
 .display {
     height: 100%;
     padding-top: 0.5em;
+    overflow-y: scroll;
 }
 .display > p {
     padding-top: 0.5em;
+}
+
+#terminalInput {
+    background: transparent;
+    margin: 0;
+    border: 0;
+    outline: none;
+    color: #ebebeb;
+    font-family: 'JetBrains Mono', monospace;
 }

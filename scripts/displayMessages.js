@@ -7,3 +7,11 @@ const addMessage = text => {
 }
 
 addMessage(messages.welcomeMessage);
+
+// Input handler
+document.getElementById('terminalInput').addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') {
+    addMessage(document.getElementById('terminalInput').value);
+    document.getElementById('terminalInput').value = '';
+  }
+})
