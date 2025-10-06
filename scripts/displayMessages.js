@@ -6,4 +6,4 @@ const addMessage = text => {
   display.appendChild(p);
 }
 
-addMessage(messages.welcomeMessage)
+addMessage(messages.welcomeMessage);

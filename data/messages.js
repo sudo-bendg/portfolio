@@ -1,3 +1,4 @@
 const messages = {
-    "welcomeMessage": "hello, i am ben. welcome to my site."
+    "prompt": ">>>",
+    "welcomeMessage": "hello, i am ben. welcome to my site. for help enter '?'",
 };
