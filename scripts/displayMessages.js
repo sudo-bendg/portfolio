@@ -26,6 +26,10 @@ const commandHandler = (input) => {
     case '?':
       addMessage('help');
       break;
+    case 'cv':
+      addMessage('profile:')
+      addMessage(messages.resume.profile);
+      break;
     default:
       addMessage(`command: "${command}" not found. enter '?' for help.`)
   }
