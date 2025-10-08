@@ -43,3 +43,6 @@ setTimeout(() => addPromptMessage("./ben.sh"), 3800);
 setTimeout(() => addMessage("executing script...", "info"), 4100);
 setTimeout(() => addMessage("profile loaded successfully", "success"), 5200);
 setTimeout(() => addMessage("welcome", "success"), 5800);
+setTimeout(() => {
+  window.location.href = './pages/home.html';
+}, 6500);

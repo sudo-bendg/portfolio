@@ -3,7 +3,8 @@ html, body {
     width: 100%;
     align-items: center;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     background-color: #1e1e1e;
     font-family: 'JetBrains Mono', monospace;
 }
@@ -17,30 +18,31 @@ html, body {
     height: 80%;
     color: #ebebeb;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-.input, .display {
+.display, .main > nav {
+    height: 100%;
+    color: #ebebeb;
     background-color: #1a1a1a;
     border: solid 1px #c8cacc;
+    line-height: 1.4;
+    padding-top: 0.5em;
     padding-left: 10px;
     padding-right: 10px;
     display: flex;
     flex-direction: column;
-}
-
-.input {
-    height: 2em;
-    justify-content: space-around;
+    overflow-y: scroll;
 }
 
 .display {
-    height: 100%;
-    padding-top: 0.5em;
-    overflow-y: scroll;
-    color: #00ff00;
-    line-height: 1.4;
+    flex: 1;
 }
+
+.main > nav > p{
+    margin: 5px 10px;
+}
+
 .display > p {
     padding-top: 0.5em;
 }
@@ -62,11 +64,12 @@ html, body {
     color: #ffaa00;
 }
 
-#terminalInput {
-    background: transparent;
-    margin: 0;
-    border: 0;
-    outline: none;
+body > div:last-child {
+    font-size: small;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
     color: #ebebeb;
-    font-family: 'JetBrains Mono', monospace;
+    padding-top: 10px;
 }
