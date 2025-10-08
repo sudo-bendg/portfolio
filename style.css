@@ -38,9 +38,28 @@ html, body {
     height: 100%;
     padding-top: 0.5em;
     overflow-y: scroll;
+    color: #00ff00;
+    line-height: 1.4;
 }
 .display > p {
     padding-top: 0.5em;
+}
+
+.prompt {
+    color: #00aaff;
+    font-weight: bold;
+}
+
+.success {
+    color: #00ff88;
+}
+
+.error {
+    color: #ff4444;
+}
+
+.info {
+    color: #ffaa00;
 }
 
 #terminalInput {
