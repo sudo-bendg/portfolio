@@ -50,15 +50,15 @@ html, body {
 #pageTitle textarea {
     width: 100%;
     max-width: 100%;
-    height: 8em;
-    min-height: 8em;
+    height: 10em;
+    min-height: 10em;
     box-sizing: border-box;
     background: transparent;
     color: inherit;
     border: none;
     outline: none;
     resize: none;
-    padding: 0;
+    padding: 10px;
     margin: 0;
     font-family: inherit;
     font-size: 1rem;
@@ -91,4 +91,9 @@ body > div:last-child {
     transform: translateX(-50%);
     color: #ebebeb;
     padding-top: 10px;
+}
+
+.pageContent {
+    padding: 10px;
+    line-height: 1.6;
 }
