@@ -10,8 +10,10 @@
         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
+        <button id="menuBtn" class="menu-button" aria-controls="mainNav" aria-expanded="false" aria-label="Open menu">☰</button>
+        <div id="navOverlay" class="nav-overlay" hidden></div>
         <div class="main">
-            <nav>
+            <nav id="mainNav">
                 <p><a href="home.html">home</a></p>
                 <p>about</p>
                 <p>cv</p>
@@ -28,8 +30,9 @@
                 </div>
             </div>
         </div>
-        <script src="../scripts/homePage.js"></script>
-        <script src="../scripts/clock.js"></script>
+    <script src="../scripts/nav.js"></script>
+    <script src="../scripts/homePage.js"></script>
+    <script src="../scripts/clock.js"></script>
         <div>ben</div>
     </body>
 </html>
