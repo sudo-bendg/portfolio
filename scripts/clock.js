@@ -16,6 +16,11 @@ clockFace.style.flexDirection = 'column';
 clockFace.style.height = `${clockHeightPx}px`;
 clockFace.style.width = `${clockHeightPx}px`;
 
+if (clockHeightPx < 100 || clockFace.clientWidth < 100) {
+    clockFace.innerHTML = '<p>Screen too small to display clock.</p>';
+    throw 'Screen too small to display clock.';
+}
+
 // Create pixels
 for (let y = yMin; y < yMax; y++) {
     const row = document.createElement('div');
