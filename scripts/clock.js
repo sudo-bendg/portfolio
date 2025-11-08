@@ -114,3 +114,7 @@ const drawClock = () => {
 
 drawClock();
 clockFace.style.margin = 'auto';
+clockFace.style.cursor = 'pointer';
+clockFace.onclick = () => {
+    window.location = 'https://github.com/sudo-bendg/clock';
+}
