@@ -201,3 +201,11 @@ body > div:last-child {
 a {
     color: #ebebeb;
 }
+
+.aboutPage {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    overflow-x: scroll;
+    width: max-content;
+}
