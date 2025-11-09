@@ -208,4 +208,5 @@ a {
     align-items: flex-start;
     overflow-x: scroll;
     width: max-content;
+    height: 85%;
 }

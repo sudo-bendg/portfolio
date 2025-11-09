@@ -9,14 +9,20 @@ if (window.innerHeight > 500 && window.innerWidth > 1200) {
 }
 
 const messages = [
-    {date: "February 2002", text: "I was born!"},
-    {date: "August 2013", text: "My first classes in computer science at Kilwinning Academy. These classes introduced me to using Python."},
-    {date: "June 2019", text: "My time at Kilwinning Academy came to an end, with a few Advanced Highers under my belt. These included Mathematics and Computing Science."},
-    {date: "September 2019", text: "I began my studies at the University of St Andrews, pursuing an integrated master's degree in Mathematics."},
-    {date: "March 2020", text: "The Coronavirus pandemic led to me leaving Fife to return. My studies continued online for the remainder of the academic year."},
-    {date: "May 2021", text: "Despite the continued challenges posed by the pandemic, I achieved a place on the Dean's List for academic excellence."},
-    {date: "September 2022", text: "My studies in mathematics continued, with a focus on pure mathematics. I also started to learn more about the role of computation in mathematics through modules like numerical analysis, mathematical computing, and game theory."},
-    {date: "November 2023", text: "My game theory class participated in an Axelrod Tournament, in which we designed algorithms and pitted them against each other. My solution came in first place."},
+    {date: "February 2002", text: "Born and raised in Ayrshire, Scotland."},
+    {date: "August 2013", text: "Started Computing Science at Kilwinning Academy, where I first learned Python and developed an interest in programming."},
+    {date: "June 2019", text: "Finished school with Advanced Highers in Mathematics and Computing Science. These subjects shaped how I approach problem solving and logic."},
+    {date: "September 2019", text: "Moved to Fife to begin an integrated master's degree in Mathematics at the University of St Andrews."},
+    {date: "March 2020", text: "Returned home as studies moved online due to the pandemic. Adjusting to remote learning taught me a lot about independence and focus."},
+    {date: "May 2021", text: "Achieved a place on the Dean’s List for academic excellence during a challenging academic year."},
+    {date: "September 2022", text: "Continued my studies with a focus on pure mathematics and its computational aspects, including numerical analysis and game theory."},
+    {date: "July 2023", text: "Gained a place on Entrepreneurial Scotland's Saltire Scholarship, through which I secured a summer internship at a local tech startup, EileanTech."},
+    {date: "November 2023", text: "My game theory algorithm placed first in our class Axelrod Tournament. It deepened my interest in how strategy and computation intersect."},
+    {date: "June 2024", text: "Completed my master’s degree in Mathematics at St Andrews. My final project project was titled 'The Inner Tubular Volume of a Self-Similar Fractal String'."},
+    {date: "November 2024", text: "Began working as an IT Operations Consultant at FDM Group, developing practical skills across systems, networks, and automation."},
+    {date: "June 2025", text: "Started a placement within Lloyds Banking Group’s API and Digital Services Platform, focusing on API systems and cloud-native tools."},
+    {date: "July 2025", text: "Married my partner, Esther, and moved to our new home in Stepps, North Lanarkshire."},
+    {date: "2025", text: "Currently working on personal projects combining software development and AI, including a self-hosted file platform and directory analysis tool."},
 ];
 
 const splitTextByMaxLineLength = (text, maxLineLength) => {
