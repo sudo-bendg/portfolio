@@ -210,3 +210,9 @@ a {
     width: max-content;
     height: 85%;
 }
+
+.horizontalBanner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
